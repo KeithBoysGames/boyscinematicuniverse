@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+
+    background-color: gray;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.left-header {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.left-header-title {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.right-header {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    background-color: black;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.intro-p {
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+
+.character-panel {
+    margin: 10px;
+    background-color: lightblue;
+    border-color: black;
+    border-style: solid;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.character-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.game-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.game-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px;
+}
+
+.game-title-p {
+    font-weight: bold;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 50px;
+}
